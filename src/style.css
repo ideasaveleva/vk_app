@@ -1,0 +1,108 @@
+/* стиль для трех смещенных листов start */
+#wish-only {
+  text-align: center;
+  line-height: 27px;
+  max-width: 550px;
+  margin: 26px auto 0;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 24px;
+  position: relative;
+  z-index: 2;
+}
+#wish-only:before,
+#wish-only:after {
+  content: '';
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+#wish-only:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+
+#wish-only:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+/* стиль для трех смещенных листов end */
+
+/* стиль для карточки вопроса при изменениии разрешения экрана start */
+.question-card {
+  display: flex;
+  flex-direction: column; /* Вертикальное размещение по умолчанию */
+  align-items: center;
+}
+
+.question-card__image {
+  width: 100%;
+  max-width: 300px;
+  padding: 0;
+  margin: 10px;
+}
+
+.question-card__image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.question-card__options {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .question-card {
+    flex-direction: row; /* Горизонтальное размещение на больших экранах */
+    max-height: 500px;
+  }
+
+  .question-card__image {
+    width: 50%;
+  }
+
+  .question-card__options {
+    width: 50%;
+    min-height: 300px;
+  }
+}
+/* стиль для карточки вопроса при изменениии разрешения экрана end */
+
+/* стиль для главного заголовка start */
+.main-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  white-space: normal; /* Позволяет перенос текста на новую строку */
+  word-break: break-word; /* Переносит длинные слова, если необходимо */
+}
+
+@media (max-width: 767px) {
+  .main-title {
+    font-size: 18px; /* Меньший размер шрифта для мобильных устройств */
+    line-height: 22px; /* Соответствующая высота строки для мобильных устройств */
+  }
+}
+/* стиль для главного заголовка end */
+
+/* стиль для обхода поведения Cell из Vk на div start */
+.cell-text {
+  word-break: break-word;
+  white-space: normal;
+  text-align: left;
+  display: 'flex';
+}
+/* стиль для обхода поведения Cell из Vk на div end */
