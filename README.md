@@ -21,6 +21,6 @@ Support:
 I welcome any feedback and suggestions for improving the app! If you have ideas or find a bug, please create an issue in the repository or open a pull request.  
 
 URLs changed for production:
-vk.com: https://prod-app52203373-8bc0acd66958.pages-ac.vk-apps.com/index.html
-iOS & Android:  https://prod-app52203373-8bc0acd66958.pages-ac.vk-apps.com/index.html
-m.vk.com:       https://prod-app52203373-8bc0acd66958.pages-ac.vk-apps.com/index.html
+- vk.com: https://prod-app52203373-8bc0acd66958.pages-ac.vk-apps.com/index.html
+- iOS & Android:  https://prod-app52203373-8bc0acd66958.pages-ac.vk-apps.com/index.html
+- m.vk.com:       https://prod-app52203373-8bc0acd66958.pages-ac.vk-apps.com/index.html
