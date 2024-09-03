@@ -11,7 +11,7 @@ Functionality:
 
 Installation and Launch:
 
-- Clone the repository: git clone https://github.com/yourusername/vk_app.git
+- Clone the repository: git clone https://github.com/ideasaveleva/vk_app.git
 - Navigate to the project directory: cd vk_app
 - Install the necessary dependencies: npm install
 - Start the application: npm start
